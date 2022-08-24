@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(15 23 42);
+}
+
+/* .userimg {
+  background-image: url('../src/assets/img/blueelips.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+} */
+
+
+@media screen and (max-width: 425px) {
+  .about-text {
+    width: 340px;
+    font-size: 14px;
+  }
+}
