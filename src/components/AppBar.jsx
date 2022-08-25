@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from "react-router-dom";
 
 export const AppBar = () => {
   let [open, setOpen] = useState(false);
@@ -35,12 +36,12 @@ export const AppBar = () => {
         >
           {Links.map((link) => (
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7 ng ">
-              <a
-                href={link.link}
+              <NavLink
+                to={link.link}
                 className="text-white hover:text-gray-400 duration-500"
               >
                 {link.name}
-              </a>
+              </NavLink>
             </li>
           ))}
         </ul>

@@ -1,7 +1,6 @@
 import React from "react";
 import userImg from "../../src/assets/img/user_image.png";
 import blueElips from "../../src/assets/img/blueelips.png";
-import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -12,7 +11,7 @@ const HomePage = () => {
           <h1 className="font-bold md:text-5xl text-4xl">I`m</h1>
           <h1 className="font-bold md:text-5xl text-4xl">Subhoniddin</h1>
           <div className="md:w-[430px] w-[270px] pt-5">
-            <p className="pb-5">
+            <p className="pb-5 font=[Arodora Pro]">
               I've been doing web design, front-end and back-end development for
               a year now. Do you need a website design, site layout, or maybe a
               tajik website? Then contact me
