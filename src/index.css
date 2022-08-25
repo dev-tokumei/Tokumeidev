@@ -17,10 +17,57 @@ body {
   background-size: 100% 100%;
 } */
 
-
 @media screen and (max-width: 425px) {
   .about-text {
     width: 340px;
     font-size: 14px;
+  }
+  .main_user_img {
+    display: none;
+  }
+  .userimg1 {
+    display: none;
+  }
+  .userimg2 {
+    display: none;
+  }
+  .userimg3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-text {
+    width: 340px;
+    font-size: 14px;
+  }
+  .main_user_img {
+    display: none;
+  }
+  .userimg1 {
+    display: none;
+  }
+  .userimg2 {
+    display: none;
+  }
+  .userimg3 {
+    display: none;
+  }
+}
+@media screen and (max-width: 630px) {
+  .about-text {
+    width: 340px;
+    font-size: 14px;
+  }
+  .main_user_img {
+    display: none;
+  }
+  .userimg1 {
+    display: none;
+  }
+  .userimg2 {
+    display: none;
+  }
+  .userimg3 {
+    display: none;
   }
 }

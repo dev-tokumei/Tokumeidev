@@ -8,10 +8,10 @@ const App = () => {
   return (
     <div className="container mx-auto box-border bg-slate-900">
       <Router>
-        <AppBar exact />
+        <AppBar />
         <div className="pt-20">
           <Routes>
-            <Route exact path="/home" element={<HomePage />} />
+            <Route exact path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
           </Routes>
         </div>

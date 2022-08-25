@@ -6,7 +6,7 @@ export const AppBar = () => {
   let [open, setOpen] = useState(false);
   const icon = <FontAwesomeIcon icon={faBars} />;
   let Links = [
-    { name: "Home", link: "/home" },
+    { name: "Home", link: "/" },
     { name: "About", link: "/about" },
     { name: "Github", link: "https://github.com/Subhoniddin/" },
     { name: "Instagram", link: "https://www.instagram.com/_anonimous_8_/" },
@@ -14,9 +14,7 @@ export const AppBar = () => {
   return (
     <div className="shadow-md w-full fixed top-0 bg-slate-900 left-0 z-[15]">
       <div className="md:flex text-white bg-slate-900 items-center justify-between py-4 md:px-10 px-7">
-        <div
-          className="font-bold text-white text-2xl cursor-pointer flex items-center font-[Poppins]"
-        >
+        <div className="font-bold text-white text-2xl cursor-pointer flex items-center font-[Poppins]">
           <span className="text-3xl mr-1 pt-2"></span>
           Anonymous
         </div>
@@ -25,7 +23,9 @@ export const AppBar = () => {
           onClick={() => setOpen(!open)}
           className="text-3xl absolute right-8 top-4 cursor-pointer md:hidden bg-slate-900  hover:text-grey-400 duration-700"
         >
-          <i name={open ? "close" : "menu"} className='text-white'>{icon}</i>
+          <i name={open ? "close" : "menu"} className="text-white">
+            {icon}
+          </i>
         </div>
 
         <ul
