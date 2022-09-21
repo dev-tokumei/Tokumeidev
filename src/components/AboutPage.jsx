@@ -1,10 +1,10 @@
-import React from "react";
-import user1 from "../../src/assets/img/user1.png";
-import user2 from "../../src/assets/img/user2.png";
-import user3 from "../../src/assets/img/user3.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeftLong } from "@fortawesome/free-solid-svg-icons";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import user1 from '../../src/assets/img/user1.png';
+import user2 from '../../src/assets/img/user2.png';
+import user3 from '../../src/assets/img/user3.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeftLong } from '@fortawesome/free-solid-svg-icons';
+import { NavLink } from 'react-router-dom';
 
 const AboutPage = () => {
   return (
@@ -12,12 +12,12 @@ const AboutPage = () => {
       <NavLink to="/">
         <div className="w-[60px] pl-8">
           <button className="text-white">
-            {<FontAwesomeIcon icon={faArrowLeftLong} />}{" "}
+            {<FontAwesomeIcon icon={faArrowLeftLong} />}{' '}
           </button>
         </div>
       </NavLink>
       <div className="flex mx-auto  items-center justify-center">
-        <div className="w-[230px]  main_user_img h-[550px] flex md:flex-col justify-between">
+        <div className="w-[230px] main_user_img h-[550px] flex md:flex-col justify-between">
           <div className="flex userimg1 justify-center items-center w-full h-[230px] shadow-lg shadow-slate-800 rounded-2xl">
             <img className=" w-[200px] h-[200px]" src={user1} alt="img1" />
           </div>
