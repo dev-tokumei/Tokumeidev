@@ -1,23 +1,32 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import logo from '../assets/img/logo.png';
 
 export const AppBar = () => {
   let [open, setOpen] = useState(false);
   const icon = <FontAwesomeIcon icon={faBars} />;
   let Links = [
-    { name: 'Home', link: '/' },
-    { name: 'About', link: '/about' },
-    { name: 'Github', link: 'https://github.com/Subhoniddin/' },
-    { name: 'Instagram', link: 'https://www.instagram.com/_anonimous_8_/' },
+    { name: 'Home', link: '/', isExtremal: false },
+    {
+      name: 'Blog',
+      link: 'https://www.instagram.com/_anonimous_8_/',
+      isExtremal: true,
+    },
+    { name: 'About me', link: '/about', isExtremal: false },
+    {
+      name: 'Github',
+      link: 'https://github.com/Subhoniddin/',
+      isExtremal: true,
+    },
   ];
   return (
     <div className="shadow-md w-full fixed top-0 bg-slate-900 left-0 z-[15]">
       <div className="md:flex text-white bg-slate-900 items-center justify-between py-4 md:px-10 px-7">
-        <div className="font-bold text-white text-2xl cursor-pointer flex items-center font-[Poppins]">
-          <span className="text-3xl mr-1 pt-2"></span>
-          Anonymous
+        <div className="font-bold text-white text-2xl cursor-pointer flex items-center w-[180px] justify-between font-[Poppins]">
+          <img className="w-[50px] " src={logo} alt="" />
+          <span className="text-3xl mr-1 ">Tokumei</span>
         </div>
 
         <div
@@ -36,12 +45,21 @@ export const AppBar = () => {
         >
           {Links.map((link) => (
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7 ng ">
-              <NavLink
-                to={link.link}
-                className="text-white hover:text-gray-400 duration-500"
-              >
-                {link.name}
-              </NavLink>
+              {link.isExtremal ? (
+                <a
+                  className="text-white hover:text-gray-400 duration-500"
+                  href={link.link}
+                >
+                  {link.name}
+                </a>
+              ) : (
+                <Link
+                  className="text-white hover:text-gray-400 duration-500"
+                  to={link.link}
+                >
+                  {link.name}
+                </Link>
+              )}
             </li>
           ))}
         </ul>

@@ -5,9 +5,9 @@ import IconPage from './IconPage';
 const HomePage = () => {
   return (
     <>
-      <div className="md:flex h-[500px] justify-between pl-20 pr-20 items-center pt-8">
+      <div className="md:flex h-full pb-10 justify-between main_content lg:pr-20 lg:pl-20 pl-4 pr-4 items-center pt-8">
         <div className="md:flex">
-          <div className="text-white">
+          <div className="text-white user_title">
             <h1 className="font-bold text-3xl">Hello</h1>
             <h1 className="font-bold md:text-4xl text-3xl">I`m</h1>
             <h1 className="font-bold md:text-4xl text-3xl">Subhoniddin</h1>
@@ -25,7 +25,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-[400px] md:h-[400px] w-[500px] h-[500px] flex user_img rounded-full">
+        <div className="md:w-[400px] main md:h-[400px]  flex user_img rounded-full">
           <img className="rounded-full userimg" src={userImg} alt="" />
         </div>
       </div>

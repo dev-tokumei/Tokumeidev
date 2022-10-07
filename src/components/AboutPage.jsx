@@ -12,7 +12,7 @@ const AboutPage = () => {
       <NavLink to="/">
         <div className="w-[60px] pl-8">
           <button className="text-white">
-            {<FontAwesomeIcon icon={faArrowLeftLong} />}{' '}
+            {<FontAwesomeIcon icon={faArrowLeftLong} />}
           </button>
         </div>
       </NavLink>
@@ -25,7 +25,7 @@ const AboutPage = () => {
             <img className="w-[200px] h-[200px]" src={user2} alt="img2" />
           </div>
         </div>
-        <div className="text-white shadow-lg shadow-slate-800 md:w-[420px] border-[15px] rounded-2xl border-slate-900 p-1 pl-4">
+        <div className="text-gray-200 shadow-lg shadow-slate-800 md:w-[420px] border-[15px] rounded-2xl border-slate-900 p-1 pl-4">
           <h1 className="font-bold text-4xl">About Me</h1>
           <p className="about-text w-[370px] text-[15px]">
             Hello again everyone! So, you already know that my name is

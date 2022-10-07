@@ -18,13 +18,19 @@ body {
   background-size: auto;
 }
 
-/* .userimg {
-  background-image: url('../src/assets/img/blueelips.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-} */
-
 @media screen and (max-width: 425px) {
+  .main {
+    padding-top: 40px;
+    width: 350px;
+    height: 350px;
+  }
+  .user_title {
+    margin-left: 40px;
+  }
+  .userimg {
+    width: 100%;
+    height: 100%;
+  }
   .about-text {
     width: 340px;
     font-size: 14px;
@@ -46,13 +52,16 @@ body {
     height: 35px;
   }
   .icon-wrapper {
-    padding-left: 2.5rem;
+    padding-left: 0.5rem;
   }
 }
 @media screen and (max-width: 768px) {
   .about-text {
     width: 340px;
     font-size: 14px;
+  }
+  .main_content {
+    padding-left: 2rem;
   }
   .main_user_img {
     display: none;
@@ -68,6 +77,9 @@ body {
   }
 }
 @media screen and (max-width: 630px) {
+  .main_content {
+    padding-left: 2.5rem;
+  }
   .about-text {
     width: 340px;
     font-size: 14px;
@@ -88,7 +100,7 @@ body {
 
 .icon-wrapper {
   display: flex;
-  justify-content: start;
+  justify-content: justify-between;
 }
 
 .icon {
@@ -130,7 +142,7 @@ body {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-15px);
+    transform: translateY(-20px);
   }
   100% {
     transform: translateY(0);

@@ -7,7 +7,7 @@ import HomePage from './components/HomePage';
 const App = () => {
   return (
     <div className="container mx-auto box-border bg-slate-900">
-      <Router>  
+      <Router>
         <AppBar />
         <div className="pt-20">
           <Routes>
