@@ -4,7 +4,7 @@ const IconPage = () => {
   const Links = [
     {
       id: 1,
-      link: 'https://instagram.com/_anonimous_8_/',
+      link: 'https://t.me/tokume1',
       name: 'telegram',
       src: require('../../src/assets/icons/icons8-telegram-app.gif'),
       class: 'icon_size',
@@ -18,21 +18,21 @@ const IconPage = () => {
     },
     {
       id: 3,
-      link: 'https://instagram.com/_anonimous_8_/',
+      link: 'https://twitter.com/1tokume',
       name: 'twitter',
       src: require('../../src/assets/icons/icons8-twitter.gif'),
       class: 'icon_size icon',
     },
     {
       id: 4,
-      link: 'https://instagram.com/_anonimous_8_/',
+      link: 'https://www.linkedin.com/in/subhoniddin-odinaev-209968222/',
       name: 'linkenIn',
       src: require('../../src/assets/icons/icons8-linkedin-48.png'),
       class: 'icon',
     },
     {
       id: 5,
-      link: 'https://instagram.com/_anonimous_8_/',
+      link: 'https://vk.com/id712658952',
       name: 'wk ',
       src: require('../../src/assets/icons/icons8-vk-com-48.png'),
       class: 'icon',

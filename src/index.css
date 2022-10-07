@@ -115,20 +115,14 @@ body {
   margin: 5px;
 }
 
-.facebook-line {
+.telegram-line {
   animation-delay: 1s;
 }
-.instagram-line {
-  animation-delay: 2s;
-}
-.telegram-line {
+.gitgub-line {
   animation-delay: 1s;
 }
 .twitter-line {
   animation-delay: 2s;
-}
-.gitgub-line {
-  animation-delay: 1s;
 }
 .linkedin-line {
   animation-delay: 2s;
@@ -136,6 +130,14 @@ body {
 .vk-line {
   animation-delay: 1s;
 }
+.facebook-line {
+  animation-delay: 1s;
+}
+.instagram-line {
+  animation-delay: 2s;
+}
+
+
 
 @keyframes float {
   0% {
