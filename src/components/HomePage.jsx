@@ -5,7 +5,7 @@ import IconPage from './IconPage';
 const HomePage = () => {
   return (
     <>
-      <div className="md:flex h-full pb-10 justify-between main_content lg:pr-20 lg:pl-20 pl-4 pr-4 items-center pt-8">
+      <div className="md:flex h-full pb-10 justify-between main_content lg:pr-20 lg:pl-20 pl-4 pr-4 items-center pt-8 mobile">
         <div className="md:flex">
           <div className="text-white user_title">
             <h1 className="font-bold text-3xl">Hello</h1>

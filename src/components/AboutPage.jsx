@@ -9,13 +9,15 @@ import { NavLink } from 'react-router-dom';
 const AboutPage = () => {
   return (
     <>
-      <NavLink to="/">
-        <div className="w-[60px] pl-8">
-          <button className="text-white">
-            {<FontAwesomeIcon icon={faArrowLeftLong} />}
-          </button>
-        </div>
-      </NavLink>
+      <div className="flex w-full justify-start pt-3">
+        <NavLink to="/">
+          <div className="w-[60px] pl-8">
+            <button className="text-white">
+              {<FontAwesomeIcon icon={faArrowLeftLong} />}
+            </button>
+          </div>
+        </NavLink>
+      </div>
       <div className="flex mx-auto  items-center justify-center">
         <div className="w-[230px] main_user_img h-[550px] flex md:flex-col justify-between">
           <div className="flex userimg1 justify-center items-center w-full h-[230px] shadow-lg shadow-slate-800 rounded-2xl">
@@ -25,7 +27,7 @@ const AboutPage = () => {
             <img className="w-[200px] h-[200px]" src={user2} alt="img2" />
           </div>
         </div>
-        <div className="text-gray-200 shadow-lg shadow-slate-800 md:w-[420px] border-[15px] rounded-2xl border-slate-900 p-1 pl-4">
+        <div className="text-gray-200 shadow-lg  shadow-slate-800 md:w-[420px] border-[15px] rounded-[10px] border-slate-900  pl-4 small">
           <h1 className="font-bold text-4xl">About Me</h1>
           <p className="about-text w-[370px] text-[15px]">
             Hello again everyone! So, you already know that my name is
