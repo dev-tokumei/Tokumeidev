@@ -11,13 +11,13 @@ export const AppBar = () => {
     { name: 'Home', link: '/', isExtremal: false },
     {
       name: 'Blog',
-      link: 'https://www.instagram.com/_anonimous_8_/',
+      link: 'https://www.instagram.com/tokumei.dev/',
       isExtremal: true,
     },
     { name: 'About me', link: '/about', isExtremal: false },
     {
       name: 'Github',
-      link: 'https://github.com/Subhoniddin/',
+      link: 'https://github.com/dev-tokumei',
       isExtremal: true,
     },
   ];
