@@ -33,7 +33,7 @@ const AboutPage = () => {
             Hello again everyone! So, you already know that my name is
             Subhoniddin. A little about myself: student, 19 y.o., I love
             creativity since childhood, I live in Dushanbe, Tajikistan. Why
-            programming? Everything is elementary - I like it, the profession of
+            programming? Everything is middle - I like it, the profession of
             the future, thanks to which I can provide myself and fulfill my
             dream - travel, at the moment I specialize in web design, front-end
             and back-end development, tajik websites. Why should you choose me?
