@@ -46,7 +46,7 @@ const IconPage = () => {
     },
   ];
   return (
-    <div className="icon mx-auto md:pl-10  relative">
+    <div className="icon mx-auto md:pl-10  relative pl-1 pr-1">
       <ul className="flex md:w-[500px]  icon-wrapper  justify-between icon-wrapper">
         {Links.map((link) => (
           <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7 ng ">
