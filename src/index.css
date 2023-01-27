@@ -76,6 +76,7 @@ body {
   .userimg {
     width: 100%;
     height: 100%;
+    padding-left: 40px;
   }
   .about-text {
     width: 340px;
