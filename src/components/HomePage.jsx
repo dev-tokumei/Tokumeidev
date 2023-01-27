@@ -25,7 +25,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-[400px] main md:h-[400px]  flex user_img rounded-full">
+        <div className="md:w-[400px] main md:h-[400px]  flex user_img rounded-full pl-2">
           <img className="rounded-full userimg" src={userImg} alt="" />
         </div>
       </div>
