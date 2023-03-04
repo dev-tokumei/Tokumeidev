@@ -4,7 +4,7 @@ const IconPage = () => {
   const Links = [
     {
       id: 1,
-      link: 'https://t.me/tokume1',
+      link: 'https://t.me/tokumei_dev',
       name: 'telegram',
       src: require('../../src/assets/icons/icons8-telegram-app.gif'),
       class: 'icon_size',
