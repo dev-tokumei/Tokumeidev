@@ -19,7 +19,7 @@ const HomePage = () => {
               </p>
               <div className="w-[200px] h-[47px] bg-amber-400 rounded-2xl flex items-center justify-center hover:shadow-amber-600">
                 <button className="font-bold font-serif text-black">
-                  <a href="@tokumei_dev">Contact me</a>
+                  <a href="https://t.me/tokumei_dev">Contact me</a>
                 </button>
               </div>
             </div>
