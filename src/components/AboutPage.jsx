@@ -9,8 +9,8 @@ import { NavLink } from 'react-router-dom';
 const AboutPage = () => {
   return (
     <>
-      <div className='flex mx-auto  items-center justify-center'>
-        <div className='w-[230px] main_user_img h-[550px] flex md:flex-col justify-between'>
+      <div className='flex mx-auto  items-center justify-center pt-10'>
+        <div className='w-[230px] main_user_img h-[550px] flex md:flex-col justify-between '>
           <div className='flex userimg1 justify-center items-center w-full h-[230px] shadow-lg shadow-slate-800 rounded-2xl'>
             <img className=' w-[200px] h-[200px]' src={user1} alt='img1' />
           </div>
