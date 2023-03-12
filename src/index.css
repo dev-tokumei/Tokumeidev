@@ -16,6 +16,12 @@ body {
   background-repeat: no-repeat;
   object-fit: fill;
   background-size: auto;
+  animation: animate 1.5s infinite ease alternate;
+}
+@keyframes animate {
+  to {
+    transform: translateY(20px);
+  }
 }
 
 .img_shadow {
@@ -23,8 +29,6 @@ body {
 }
 
 @media (max-width: 1280px) {
-  
-  
 }
 
 @media screen and (max-width: 768px) {
