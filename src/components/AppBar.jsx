@@ -24,10 +24,12 @@ export const AppBar = () => {
   return (
     <div className='shadow-md w-full fixed top-0 bg-slate-900 left-0 z-[15]'>
       <div className='md:flex text-white bg-slate-900 items-center justify-between py-4 md:px-10 px-7'>
-        <div className='font-bold text-white text-2xl cursor-pointer flex items-center w-[180px] justify-between font-[Poppins]'>
-          <img className='w-[50px] ' src={logo} alt='' />
-          <span className='text-3xl mr-1 '>Tokumei</span>
-        </div>
+        <Link to='/'>
+          <div className='font-bold text-white text-2xl cursor-pointer flex items-center w-[180px] justify-between font-[Poppins]'>
+            <img className='w-[50px] ' src={logo} alt='' />
+            <span className='text-3xl mr-1 '>Tokumei</span>
+          </div>
+        </Link>
 
         <div
           onClick={() => setOpen(!open)}
