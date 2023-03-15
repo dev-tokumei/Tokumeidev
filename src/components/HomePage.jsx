@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <>
       <div className='md:flex h-full pb-10 justify-between main_content lg:pr-20 lg:pl-20 pl-4 pr-4 items-center md:pt-8 mobile'>
-        <div className='md:flex'>
+        <div className='md:flex pt-[30px]'>
           <div className='text-white user_title'>
             <h1 className='font-bold text-3xl'>Hello</h1>
             <h1 className='font-bold md:text-4xl text-3xl'>I`m</h1>
@@ -26,7 +26,11 @@ const HomePage = () => {
           </div>
         </div>
         <div className='justify-center items-center md:w-[400px] main md:h-[400px]  flex user_img rounded-full mr-20 mt-10'>
-          <img className='rounded-full userimg img_shadow' src={userImg} alt='' />
+          <img
+            className='rounded-full userimg img_shadow'
+            src={userImg}
+            alt=''
+          />
         </div>
       </div>
       <IconPage />
