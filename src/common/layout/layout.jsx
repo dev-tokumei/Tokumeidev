@@ -3,11 +3,10 @@ import React from 'react';
 import Navbar from '../navbar/navbar.component';
 import Footer from '../footer/footer.component';
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <Container maxWidth='xl'>
-      <Navbar />
-      <Footer />
+      {children}
     </Container>
   );
 };

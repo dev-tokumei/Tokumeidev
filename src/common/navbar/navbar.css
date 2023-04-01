@@ -1,0 +1,19 @@
+.menuNavbar {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
+  .logoNavText {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .contentListNav {
+    display: none;
+  }
+
+  .menuNavbar {
+    display: block !important;
+  }
+}

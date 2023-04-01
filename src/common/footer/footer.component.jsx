@@ -5,11 +5,25 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer = () => {
   const date = new Date().getFullYear();
-  console.log(date);
   return (
-    <Container>
-      <Box sx={{ width: '100%', justifyContent: 'space-between' }}>
-        <Typography>Copyright &copy; {date}. Все права защищены.</Typography>
+    <Box
+      sx={{
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'center',
+        py: 10,
+      }}
+    >
+      <Box
+        sx={{
+          width: '100%',
+          display: 'flex',
+          justifyContent: 'space-between',
+          py: 10,
+          maxWidth: '990px',
+        }}
+      >
+        <Typography sx={{fontWeight: 'bold'}}>&copy; {date}. Все права защищены.</Typography>
         <Box>
           <IconButton>
             <GitHubIcon />
@@ -19,7 +33,7 @@ const Footer = () => {
           </IconButton>
         </Box>
       </Box>
-    </Container>
+    </Box>
   );
 };
 
