@@ -7,7 +7,7 @@ import './navbar.css';
 const Navbar = () => {
   return (
     <>
-      <nav className='w-full flex items-center px-10 h-[90px] py-[20px] justify-between backdrop-blur-sm bg-white/30 fixed shadow-md'>
+      <nav className='w-full flex items-center px-10 h-[90px] py-[20px] justify-between backdrop-blur-sm bg-white/30 fixed z-[100] shadow-md'>
         <a href='#home'>
           <div className='font-bold text-black text-2xl cursor-pointer flex items-center justify-between font-[Poppins]'>
             <img
@@ -19,7 +19,7 @@ const Navbar = () => {
           </div>
         </a>
         <div className='flex items-center contentListNav '>
-          <a className='mr-4 font-bold' href='/'>
+          <a className='mr-4 font-bold' href='#home'>
             Главный
           </a>
           <a className='mr-4 font-bold' href='#about'>
