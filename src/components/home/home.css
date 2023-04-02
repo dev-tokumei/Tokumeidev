@@ -76,4 +76,12 @@
   .hero_block {
     width: 100%;
   }
+  .h1_text {
+    margin-top: 20px;
+  }
+  .hero_icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }

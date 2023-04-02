@@ -28,14 +28,14 @@ const Home = () => {
               Привет, я Cубхониддин. Увлеченный Front-end React разработчик из
               Душанбе, Таджикистан.
             </p>
-            <Box>
+            <div className='hero_icons'>
               <IconButton>
                 <GitHubIcon />
               </IconButton>
               <IconButton>
                 <LinkedInIcon />
               </IconButton>
-            </Box>
+            </div>
           </div>
           <div className='flex'>
             <div className='shape'></div>
