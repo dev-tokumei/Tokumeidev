@@ -1,6 +1,4 @@
 import React from 'react';
-import { Container } from '@mui/material';
-// import logo from '../../assets/img/logoblack.png';
 import logo from '../../assets/img/userImg.jpg';
 import './navbar.css';
 import { Link } from 'react-router-dom';
@@ -17,8 +15,6 @@ const Navbar = () => {
               src={logo}
               alt=''
             />
-            {/* <div className='sm:w-[50px] sm:h-[50px] md:w-[60px] md:h-[60px]  flex items-center justify-center rounded-full select-none  bg-slate-900'>
-            </div> */}
             <span className='sm:text-2xl md:text-3xl mr-1 ml-4 '>Tokumei</span>
           </div>
         </Link>

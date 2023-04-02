@@ -1,19 +1,11 @@
 import React, { useState } from 'react';
-import {
-  Box,
-  Button,
-  IconButton,
-  ListItemIcon,
-  ListItemText,
-} from '@mui/material';
+import { Box, IconButton } from '@mui/material';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import MenuIcon from '@mui/icons-material/Menu';
-import Divider from '@mui/material/Divider';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
+
 
 const Mobile = () => {
   const [state, setState] = useState({
@@ -33,7 +25,7 @@ const Mobile = () => {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
+      sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 200 }}
       role='presentation'
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
@@ -41,26 +33,33 @@ const Mobile = () => {
       <List>
         <ListItem>
           <ListItemButton>
-            <a href='#home'>Главный</a>
+            <a href='#home' className='font-bold'>
+              Главный
+            </a>
           </ListItemButton>
         </ListItem>
         <ListItem>
           <ListItemButton>
-            <a href='#about'>Обо мне</a>
+            <a href='#about' className='font-bold'>
+              Обо мне
+            </a>
           </ListItemButton>
         </ListItem>
         <ListItem>
           <ListItemButton>
-            <a href='#project'>Проекты</a>
+            <a href='#project' className='font-bold'>
+              Проекты
+            </a>
           </ListItemButton>
         </ListItem>
         <ListItem>
           <ListItemButton>
-            <a href='#contact'>Контакт</a>
+            <a href='#contact' className='font-bold'>
+              Контакт
+            </a>
           </ListItemButton>
         </ListItem>
       </List>
-      <Divider />
     </Box>
   );
 
