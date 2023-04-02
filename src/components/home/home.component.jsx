@@ -4,6 +4,7 @@ import helloimg from '../../assets/img/helloimg.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './home.css';
+import Skils from '../techskils/techscils.component';
 
 const Home = () => {
   return (
