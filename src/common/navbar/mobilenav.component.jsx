@@ -6,7 +6,6 @@ import ListItemButton from '@mui/material/ListItemButton';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import MenuIcon from '@mui/icons-material/Menu';
 
-
 const Mobile = () => {
   const [state, setState] = useState({
     left: false,
@@ -25,7 +24,9 @@ const Mobile = () => {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 200 }}
+      sx={{
+        width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 200,
+      }}
       role='presentation'
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
@@ -77,6 +78,7 @@ const Mobile = () => {
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
+            x
             onOpen={toggleDrawer(anchor, true)}
           >
             {list(anchor)}

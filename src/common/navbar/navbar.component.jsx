@@ -7,7 +7,7 @@ import Mobile from './mobilenav.component';
 const Navbar = () => {
   return (
     <>
-      <nav className='w-full flex items-center px-10 h-[90px] py-[20px] justify-between bg-white fixed shadow-md'>
+      <nav className='w-full flex items-center px-10 h-[90px] py-[20px] justify-between backdrop-blur-sm bg-white/30 fixed shadow-md'>
         <Link to='/'>
           <div className='font-bold text-black text-2xl cursor-pointer flex items-center justify-between font-[Poppins]'>
             <img
