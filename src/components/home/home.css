@@ -35,29 +35,45 @@
     flex-direction: column-reverse;
     align-items: center;
   }
-  .sm_pt {
-    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .hero_block {
+    width: 100%;
+  }
+  .h1_text {
+    width: 300px;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-left: 20px;
+  }
+  .hello {
+    display: none;
   }
   .shape {
-    margin-top: 20px;
+    width: 23rem;
+    height: 23rem;
   }
 }
+
 @media (max-width: 400px) {
   .sm {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
   }
-  .sm_pt {
-    margin-top: 50px;
-  }
   .shape {
-    margin-top: 20px;
+    width: 17rem;
+    height: 17rem;
+  }
+  .mobile_heght {
+    height: 140vh;
   }
   .sm_text_hero {
     width: 300px;
+    text-align: center;
   }
-  .sm_nonne {
-    display: none;
+  .hero_block {
+    width: 100%;
   }
 }
