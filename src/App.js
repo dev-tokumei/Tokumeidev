@@ -9,7 +9,7 @@ import ContactPage from './pages/contactPage';
 
 const App = () => {
   return (
-    <div className='container mx-auto box-border'>
+    <div className='mx-auto box-border content-center'>
       <Router>
         <Navbar />
         <HomePage />
