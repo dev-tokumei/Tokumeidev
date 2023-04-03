@@ -4,13 +4,14 @@ import helloimg from '../../assets/img/helloimg.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import './home.css';
+import Skils from '../techskils/techscils.component';
 
 const Home = () => {
   return (
     <Container>
       <div
         id='#home'
-        className='w-full h-screen mobile_heght snap-center flex justify-center items-center'
+        className='w-full h-screen mobile_heght snap-center flex flex-col justify-center '
       >
         <div className='w-full sm flex justify-between'>
           <div className='flel hero_block w-[500px]'>
@@ -41,6 +42,7 @@ const Home = () => {
             <div className='shape'></div>
           </div>
         </div>
+        <Skils />
       </div>
     </Container>
   );
