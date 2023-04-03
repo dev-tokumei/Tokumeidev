@@ -23,7 +23,6 @@
   /* border: 3px #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%,
     #bc1888 100% solid; */
   border-radius: 100%;
-  position: relative;
   margin: auto;
   background: #f09433;
   background: -moz-linear-gradient(
@@ -51,14 +50,14 @@
     #bc1888 100%
   );
 }
-.logo {
-  position: absolute;
-  left: 3px;
-  top: 4px;
-}
+
 @media (max-width: 630px) {
   .mobile {
     width: 55px;
     height: 55px;
+  }
+  .block_logo {
+    width: 59px;
+    height: 59px;
   }
 }

@@ -10,9 +10,9 @@ const Navbar = () => {
       <nav className='w-full flex items-center px-10 h-[90px] py-[20px] justify-between backdrop-blur-sm bg-white/30 fixed z-[100] shadow-md'>
         <a href='#home'>
           <div className='font-bold text-black text-2xl cursor-pointer flex items-center justify-between font-[Poppins]'>
-            <div className='w-[67px] h-[67px] img_shadow'>
+            <div className='w-[65px] h-[65px] block_logo flex justify-center items-center img_shadow'>
               <img
-                className='mobile w-[60px] h-[60px] rounded-full logo '
+                className='mobile w-[60px] h-[60px] rounded-full '
                 src={logo}
                 alt='logo'
               />

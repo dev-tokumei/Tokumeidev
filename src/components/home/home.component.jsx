@@ -26,7 +26,7 @@ const Home = () => {
               />
             </div>
             <p className='sm_text_hero flex text-[#767676] text-[1.1rem] m-3'>
-              Привет, я Cубхониддин. Увлеченный Front-end React разработчик из
+              Привет, я Cубхониддин. Опитный Front-end React разработчик из
               Душанбе, Таджикистан.
             </p>
             <div className='hero_icons'>
@@ -42,7 +42,7 @@ const Home = () => {
             <div className='shape'></div>
           </div>
         </div>
-        <Skils />
+        {/* <Skils /> */}
       </div>
     </Container>
   );
