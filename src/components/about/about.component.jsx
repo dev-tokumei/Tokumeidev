@@ -2,7 +2,8 @@ import React from 'react';
 import { Container } from '@mui/material';
 import note from '../../assets/img/nout.webp';
 import mac from '../../assets/img/mac.png';
-import './about.css'
+import textimg from '../../assets/img/textimg.svg';
+import './about.css';
 
 const About = () => {
   return (
@@ -18,8 +19,11 @@ const About = () => {
               src={note}
               alt='notebook'
             />
-            <div className='flex justify-center loader items-center w-[180px] h-[180px] bg-red-500 rounded-full bottom-[-50px] right-[-47px] absolute'>
+            <div className='flex justify-center items-center w-[180px] h-[180px] bg-white rounded-full bottom-[-50px] right-[-47px] absolute'>
               <img className='w-[60px] h-[60px]' src={mac} alt='mac' />
+              <span className='w-full loader h-full absolute z-10'>
+                <img className='w-[180px] h-[180px]' src={textimg} alt='' />
+              </span>
             </div>
           </div>
           <div className='w-[480px]'>
