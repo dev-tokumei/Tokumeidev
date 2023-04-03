@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logo from '../../assets/img/userImg.jpg';
 import Mobile from './mobilenav.component';
 import './navbar.css';
