@@ -14,7 +14,7 @@ const Home = () => {
           id='#home'
           className='w-full h-screen mobile_heght snap-center flex flex-col justify-center '
         >
-          <div className='w-full sm flex justify-between'>
+          <div className='w-full sm flex justify-between mt-20'>
             <div className='flel hero_block w-[500px]'>
               <div className='relative'>
                 <h1 className='text-[3rem] h1_text font-bold text-[#2d2e32] mb-5 sm_pt'>
