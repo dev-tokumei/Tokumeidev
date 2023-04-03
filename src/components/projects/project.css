@@ -1,0 +1,11 @@
+.project_item_block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8rem;
+  justify-content: center;
+}
+
+.shadow_tech {
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}

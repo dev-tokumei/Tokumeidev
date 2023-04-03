@@ -3,8 +3,9 @@ import { Container, IconButton } from '@mui/material';
 import helloimg from '../../assets/img/helloimg.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import './home.css';
 import Skils from '../techskils/techscils.component';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import './home.css';
 
 const Home = () => {
   return (
@@ -36,6 +37,11 @@ const Home = () => {
                 </IconButton>
                 <IconButton>
                   <LinkedInIcon />
+                </IconButton>
+                <IconButton>
+                  <a href='https://t.me/tokumei_dev'>
+                    <TelegramIcon />
+                  </a>
                 </IconButton>
               </div>
             </div>
