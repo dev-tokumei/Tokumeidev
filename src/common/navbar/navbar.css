@@ -19,9 +19,6 @@
 }
 
 .img_shadow {
-  /* box-shadow: 1px 0.5px 15px 1px #1a5ba5; */
-  /* border: 3px #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%,
-    #bc1888 100% solid; */
   border-radius: 100%;
   margin: auto;
   background: #f09433;
