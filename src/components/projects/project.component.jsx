@@ -1,11 +1,15 @@
 import React from 'react';
 import { Container } from '@mui/material';
 
-const Project = () => {
+const Project = ({}) => {
   return (
-    <Container>
-      <div className='w-full h-screen snap-center'>project</div>
-    </Container>
+    <div className='w-full bg-[#f9f9f9]'>
+      <Container>
+        <div className='w-full snap-center py-20'>
+
+        </div>
+      </Container>
+    </div>
   );
 };
 
