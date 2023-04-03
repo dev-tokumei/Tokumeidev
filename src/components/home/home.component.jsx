@@ -12,9 +12,9 @@ const Home = () => {
       <Container>
         <div
           id='#home'
-          className='w-full h-screen mobile_heght snap-center flex flex-col justify-center '
+          className='w-full h-screen mobile_heght snap-center flex flex-col justify-center pb-32'
         >
-          <div className='w-full sm flex justify-between mt-20'>
+          <div className='w-full sm flex justify-between mt-36 '>
             <div className='flel hero_block w-[500px]'>
               <div className='relative'>
                 <h1 className='text-[3rem] h1_text font-bold text-[#2d2e32] mb-5 sm_pt'>

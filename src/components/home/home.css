@@ -36,7 +36,7 @@
     align-items: center;
   }
   .mobile_heght {
-    height: 142vh;
+    height: auto;
   }
 }
 
@@ -70,7 +70,7 @@
     height: 17rem;
   }
   .mobile_heght {
-    height: 133vh;
+    height: auto;
   }
   .sm_text_hero {
     width: 300px;
@@ -91,11 +91,11 @@
 
 @media (max-width: 380px) {
   .mobile_heght {
-    height: 153vh;
+    height: auto;
   }
 }
 @media (max-width: 360px) {
   .mobile_heght {
-    height: 180vh;
+    height: auto;
   }
 }
