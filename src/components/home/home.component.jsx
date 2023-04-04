@@ -31,18 +31,13 @@ const Home = () => {
                 Привет, я Cубхониддин. Опитный Front-end React разработчик из
                 Душанбе, Таджикистан.
               </p>
-              <div className='hero_icons'>
-                <IconButton>
-                  <GitHubIcon />
-                </IconButton>
-                <IconButton>
-                  <LinkedInIcon />
-                </IconButton>
-                <IconButton>
-                  <a href='https://t.me/tokumei_dev'>
-                    <TelegramIcon />
-                  </a>
-                </IconButton>
+              <div className='w-full flex items-center pl-2 hero_icons pt-3'>
+                <a className='mr-5' href='https://github.com/dev-tokumei'>
+                  <GitHubIcon fontSize='large' />
+                </a>
+                <a className='mr-5' href='https://t.me/tokumei_dev'>
+                  <TelegramIcon fontSize='large' />
+                </a>
               </div>
             </div>
             <div className='flex'>

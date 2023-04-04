@@ -38,6 +38,10 @@
   .mobile_heght {
     height: auto;
   }
+  .hero_icons {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 600px) {
@@ -82,11 +86,6 @@
   .h1_text {
     margin-top: 20px;
     text-align: center;
-  }
-  .hero_icons {
-    width: 100%;
-    display: flex;
-    justify-content: center;
   }
 }
 
