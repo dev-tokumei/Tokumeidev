@@ -1,39 +1,52 @@
 import React from 'react';
 import { Box, Container, IconButton, Typography } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TelegramIcon from '@mui/icons-material/Telegram';
 
 const Footer = () => {
   const date = new Date().getFullYear();
   return (
-    <Box
-      sx={{
-        width: '100%',
-        display: 'flex',
-        justifyContent: 'center',
-        py: 10,
-      }}
-    >
-      <Box
-        sx={{
-          width: '100%',
-          display: 'flex',
-          justifyContent: 'space-between',
-          py: 10,
-          maxWidth: '990px',
-        }}
-      >
-        <Typography sx={{fontWeight: 'bold'}}>&copy; {date}. Все права защищены.</Typography>
-        <Box>
-          <IconButton>
-            <GitHubIcon />
-          </IconButton>
-          <IconButton>
-            <LinkedInIcon />
-          </IconButton>
+    <div className='w-full bg-[#2d2e32]'>
+      <Container>
+        <Box
+          sx={{
+            width: '100%',
+            display: 'flex',
+            justifyContent: 'center',
+          }}
+        >
+          <Box
+            sx={{
+              width: '100%',
+              display: 'flex',
+              justifyContent: 'space-between',
+              py: 5,
+              maxWidth: '990px',
+            }}
+          >
+            <Typography
+              sx={{ fontWeight: 'bold', color: 'white', fontSize: '20px' }}
+            >
+              &copy; {date}. Все права защищены.
+            </Typography>
+            <Box>
+              <a
+                className='mr-5 hover:text-[#147efb] duration-300 text-white'
+                href='https://github.com/dev-tokumei '
+              >
+                <GitHubIcon fontSize='large' />
+              </a>
+              <a
+                className='mr-5 hover:text-[#147efb] duration-300 text-white'
+                href='https://t.me/tokumei_dev'
+              >
+                <TelegramIcon fontSize='large' />
+              </a>
+            </Box>
+          </Box>
         </Box>
-      </Box>
-    </Box>
+      </Container>
+    </div>
   );
 };
 
