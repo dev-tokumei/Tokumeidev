@@ -11,7 +11,7 @@ const ItemProject = ({ src, link, stack, name, title }) => {
       <div
         className={
           name === 'SSB.TJ'
-            ? 'w-full shadow_tech rounded-3xl bg-white p-5  flex items-center mt-16 mb-16 gap-32 flex-row flex-wrap justify-center'
+            ? 'w-full shadow_tech rounded-3xl bg-white p-5  flex items-center  mb-16 gap-32 flex-row flex-wrap justify-center'
             : 'w-full shadow_tech rounded-3xl bg-white p-5  flex items-center mt-16 mb-16 gap-32 flex-row-reverse flex-wrap justify-center'
         }
       >
