@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Container, IconButton, Typography } from '@mui/material';
+import { Box, Container, Typography } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TelegramIcon from '@mui/icons-material/Telegram';
 
