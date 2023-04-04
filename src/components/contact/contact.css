@@ -1,0 +1,16 @@
+@media (max-width: 800px) {
+  .contact_item_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .contact_items {
+    padding-top: 15px;
+    text-align: center;
+  }
+  .text_block {
+    text-align: center;
+  }
+}
