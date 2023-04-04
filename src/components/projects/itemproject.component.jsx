@@ -21,11 +21,11 @@ const ItemProject = ({ src, link, stack, name, title }) => {
         <div className='w-[300px] h-[360px] flex flex-col items-center pt-[30px]'>
           <h1 className='text-[#2d2e32] text-xl font-bold'>{name}</h1>
           <p className='text-[#767676] text-xl text-center'>{title}</p>
-          <div className=' w-full flex gap-10 justify-center pt-8'>
+          <div className=' w-full flex gap-10 justify-center pt-3 '>
             <div className='shadow_tech cursor-pointer p-3 pt-3 font-bold h-[50px] text-center flex items-center justify-center'>
               {stack.vue}
             </div>
-            <div className='shadow_tech cursor-pointer p-3 pt-3 font-bold h-[50px] text-center flex items-center justify-center'>
+            <div className='shadow_tech cursor-pointer p-3 pt-2 font-bold h-[50px] text-center flex items-center justify-center'>
               {stack.tw}
             </div>
           </div>
