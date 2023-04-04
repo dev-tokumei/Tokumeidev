@@ -22,7 +22,7 @@
     gap: 2.5rem;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .icons {
     width: 100%;
     display: flex;
