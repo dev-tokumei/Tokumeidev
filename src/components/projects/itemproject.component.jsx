@@ -5,8 +5,8 @@ import './project.css';
 const ItemProject = ({ src, link, stack, name, title }) => {
   return (
     <>
-      <div className='w-full shadow-2xl rounded-3xl bg-white p-5  project_item_block items-center mt-16 mb-16'>
-        <div className='w-[530px] h-[360px] rounded-3xl overflow-hidden shadow-2xl'>
+      <div className='w-full shadow-2xl rounded-3xl bg-white p-5  flex items-center mt-16 mb-16 gap-32 flex-row flex-wrap justify-center'>
+        <div className='w-[530px] h-[360px] rounded-3xl overflow-hidden shadow_tech'>
           <img className='rounded-3xl img_ianimation' src={src} alt='img' />
         </div>
         <div className='w-[300px] h-[360px] flex flex-col items-center'>
