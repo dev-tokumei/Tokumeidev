@@ -3,9 +3,18 @@ import OutboundOutlinedIcon from '@mui/icons-material/OutboundOutlined';
 import './project.css';
 
 const ItemProject = ({ src, link, stack, name, title }) => {
+  if (name === 'SSB.TJ') {
+    console.log(link);
+  }
   return (
     <>
-      <div className='w-full shadow-2xl rounded-3xl bg-white p-5  flex items-center mt-16 mb-16 gap-32 flex-row flex-wrap justify-center'>
+      <div
+        className={
+          name === 'SSB.TJ'
+            ? 'w-full shadow-2xl rounded-3xl bg-white p-5  flex items-center mt-16 mb-16 gap-32 flex-row flex-wrap justify-center'
+            : 'w-full shadow-2xl rounded-3xl bg-white p-5  flex items-center mt-16 mb-16 gap-32 flex-row-reverse flex-wrap justify-center'
+        }
+      >
         <div className='w-[530px] h-[360px] rounded-3xl overflow-hidden shadow_tech'>
           <img className='rounded-3xl img_ianimation' src={src} alt='img' />
         </div>
