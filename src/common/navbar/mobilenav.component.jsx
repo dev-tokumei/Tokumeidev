@@ -9,7 +9,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 const Mobile = () => {
   const [state, setState] = useState({
     left: false,
+    top: false,
+    right: false,
+    bottom: false,
   });
+
   const toggleDrawer = (anchor, open) => (event) => {
     if (
       event &&
@@ -78,7 +82,6 @@ const Mobile = () => {
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
-            x
             onOpen={toggleDrawer(anchor, true)}
           >
             {list(anchor)}

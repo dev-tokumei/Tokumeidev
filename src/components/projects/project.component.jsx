@@ -2,6 +2,8 @@ import React from 'react';
 import { Container } from '@mui/material';
 import ItemProject from './itemproject.component';
 import doodge from '../../assets/project/doodge.avif';
+import ssb from '../../assets/project/ssb.png';
+import gravity from '../../assets/project/gravity.png'
 
 const projects = [
   {
@@ -9,7 +11,7 @@ const projects = [
     title:
       'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars',
     stack: { vue: 'Vue JS', tw: 'Tailwind css' },
-    src: doodge,
+    src: ssb,
     link: 'https://www.ssb.tj/',
   },
   {
@@ -17,15 +19,7 @@ const projects = [
     title:
       'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars',
     stack: { vue: 'Vue JS', tw: 'Tailwind css' },
-    src: doodge,
-    link: 'https://www.ssb.tj/',
-  },
-  {
-    name: 'SSB.TJ',
-    title:
-      'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars',
-    stack: { vue: 'Vue JS', tw: 'Tailwind css' },
-    src: doodge,
+    src: gravity,
     link: 'https://www.ssb.tj/',
   },
 ];
@@ -42,8 +36,8 @@ const Project = () => {
             </p>
           </div>
           <div className='pt-10 w-full'>
-            {projects.map((item) => (
-              <ItemProject key={item.name} {...item} />
+            {projects.map((item, idx) => (
+              <ItemProject key={idx} {...item} />
             ))}
           </div>
         </div>
