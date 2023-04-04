@@ -8,7 +8,7 @@ const projects = [
   {
     name: 'SSB.TJ',
     title:
-      'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars',
+      'Банк который предлагает государственная гарантия, доступные процентные ставки, предложение кредита в национальной валюте.',
     stack: { vue: 'Vue JS', tw: 'Tailwind css' },
     src: ssb,
     link: 'https://www.ssb.tj/',
@@ -16,7 +16,7 @@ const projects = [
   {
     name: 'Gravity.Studio',
     title:
-      'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars',
+      'Является IT студией Таджикистана которое создаёт продающие, имиджевые сайты и предлагает нестандартные решения. ',
     stack: { vue: 'React', tw: 'Tailwind css' },
     src: gravity,
     link: 'https://gravity-ruby.vercel.app/',
