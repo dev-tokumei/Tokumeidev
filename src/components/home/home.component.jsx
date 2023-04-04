@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, IconButton } from '@mui/material';
+import { Container } from '@mui/material';
 import helloimg from '../../assets/img/helloimg.png';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Skils from '../techskils/techscils.component';
@@ -31,10 +31,16 @@ const Home = () => {
                 Душанбе, Таджикистан.
               </p>
               <div className='w-full flex items-center pl-2 hero_icons pt-3'>
-                <a className='mr-5' href='https://github.com/dev-tokumei'>
+                <a
+                  className='mr-5 hover:text-[#147efb] duration-300'
+                  href='https://github.com/dev-tokumei '
+                >
                   <GitHubIcon fontSize='large' />
                 </a>
-                <a className='mr-5' href='https://t.me/tokumei_dev'>
+                <a
+                  className='mr-5 hover:text-[#147efb] duration-300'
+                  href='https://t.me/tokumei_dev'
+                >
                   <TelegramIcon fontSize='large' />
                 </a>
               </div>

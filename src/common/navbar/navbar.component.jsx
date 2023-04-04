@@ -16,20 +16,32 @@ const Navbar = () => {
                 alt='logo'
               />
             </div>
-            <span className='sm:text-2xl md:text-3xl mr-1 ml-4 '>Tokumei</span>
+            <span className='sm:text-2xl md:text-3xl mr-1 ml-4 hover:text-[#147efb] duration-300'>Tokumei</span>
           </div>
         </a>
         <div className='flex items-center contentListNav '>
-          <a className='mr-4 font-bold' href='#home'>
+          <a
+            className='mr-4 font-bold hover:text-[#147efb] duration-300'
+            href='#home'
+          >
             Главный
           </a>
-          <a className='mr-4 font-bold' href='#about'>
+          <a
+            className='mr-4 font-bold hover:text-[#147efb] duration-300'
+            href='#about'
+          >
             Обо мне
           </a>
-          <a className='mr-4 font-bold' href='#project'>
+          <a
+            className='mr-4 font-bold hover:text-[#147efb] duration-300'
+            href='#project'
+          >
             Проекты
           </a>
-          <a className='mr-4 font-bold' href='#contact'>
+          <a
+            className='mr-4 font-bold hover:text-[#147efb] duration-300'
+            href='#contact'
+          >
             Контакт
           </a>
         </div>
