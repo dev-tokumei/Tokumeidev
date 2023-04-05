@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Container, Typography } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import TelegramIcon from '@mui/icons-material/Telegram';
+import './footer.css';
 
 const Footer = () => {
   const date = new Date().getFullYear();
@@ -29,20 +30,20 @@ const Footer = () => {
             >
               &copy; {date}. Все права защищены.
             </Typography>
-            <Box>
+            <div className='footer'>
               <a
-                className='mr-5 hover:text-[#147efb] duration-300 text-white'
+                className='mr-5 hover:text-[#147efb] duration-300 text-white footer_icons'
                 href='https://github.com/dev-tokumei '
               >
                 <GitHubIcon fontSize='large' />
               </a>
               <a
-                className='mr-5 hover:text-[#147efb] duration-300 text-white'
+                className='mr-5 hover:text-[#147efb] duration-300 text-white footer_icons'
                 href='https://t.me/tokumei_dev'
               >
                 <TelegramIcon fontSize='large' />
               </a>
-            </Box>
+            </div>
           </Box>
         </Box>
       </Container>
