@@ -28,7 +28,7 @@ const About = () => {
           </div>
           <div className='w-[480px] text_block'>
             <div>
-              <p className='text-[#147efb] font-bold text-lg mb-4'>ABOUT ME</p>
+              <p className='text-[#147efb] font-bold text-lg mb-4'>ОБО МНЕ</p>
             </div>
             <div className='about_text_block'>
               <p className='text-[#767676] about_text font-medium text-[17px]'>

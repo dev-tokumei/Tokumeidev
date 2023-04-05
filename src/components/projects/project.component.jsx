@@ -29,7 +29,7 @@ const Project = () => {
       <Container>
         <div className='w-full justify-center snap-center py-20'>
           <div className='block_text_project'>
-            <h1 className='text-[#147efb] font-bold text-lg mb-4'>PORTFOLIO</h1>
+            <h1 className='text-[#147efb] font-bold text-lg mb-4'>ПОРТФОЛИО</h1>
             <p className='text-[#2d2e32] font-bold text-3xl'>
               Каждый проект — это уникальная разработка 🧩
             </p>
