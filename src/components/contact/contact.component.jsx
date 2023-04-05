@@ -29,7 +29,7 @@ const Contact = () => {
                 </p>
               </div>
             </div>
-            <div className='w-[350px] h-[80px] flex justify-between items-center contact_item_block'>
+            <div className='w-[360px] h-[80px] flex justify-between items-center contact_item_block'>
               <div className='w-[79px] h-[79px] flex justify-center items-center scikls_shadow cursor-pointer text-[#147efb]'>
                 <DraftsOutlinedIcon fontSize='large' />
               </div>
