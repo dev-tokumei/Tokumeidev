@@ -13,38 +13,29 @@ const Footer = () => {
           sx={{
             width: '100%',
             display: 'flex',
-            justifyContent: 'center',
+            justifyContent: 'space-between',
+            py: 5,
           }}
         >
-          <Box
-            sx={{
-              width: '100%',
-              display: 'flex',
-              justifyContent: 'space-between',
-              py: 5,
-              maxWidth: '990px',
-            }}
+          <Typography
+            sx={{ fontWeight: 'bold', color: 'white', fontSize: '20px' }}
           >
-            <Typography
-              sx={{ fontWeight: 'bold', color: 'white', fontSize: '20px' }}
+            &copy; {date}. Все права защищены.
+          </Typography>
+          <div className='footer'>
+            <a
+              className='mr-5 hover:text-[#147efb] duration-300 text-white footer_icons'
+              href='https://github.com/dev-tokumei '
             >
-              &copy; {date}. Все права защищены.
-            </Typography>
-            <div className='footer'>
-              <a
-                className='mr-5 hover:text-[#147efb] duration-300 text-white footer_icons'
-                href='https://github.com/dev-tokumei '
-              >
-                <GitHubIcon fontSize='large' />
-              </a>
-              <a
-                className='mr-5 hover:text-[#147efb] duration-300 text-white footer_icons'
-                href='https://t.me/tokumei_dev'
-              >
-                <TelegramIcon fontSize='large' />
-              </a>
-            </div>
-          </Box>
+              <GitHubIcon fontSize='large' />
+            </a>
+            <a
+              className='mr-5 hover:text-[#147efb] duration-300 text-white footer_icons'
+              href='https://t.me/tokumei_dev'
+            >
+              <TelegramIcon fontSize='large' />
+            </a>
+          </div>
         </Box>
       </Container>
     </div>
