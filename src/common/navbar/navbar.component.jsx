@@ -16,7 +16,9 @@ const Navbar = () => {
                 alt='logo'
               />
             </div>
-            <span className='sm:text-2xl md:text-3xl mr-1 ml-4 hover:text-[#147efb] duration-300'>Tokumei</span>
+            <span className='sm:text-2xl md:text-3xl mr-1 ml-4 hover:text-[#147efb] duration-300'>
+              Tokumei
+            </span>
           </div>
         </a>
         <div className='flex items-center contentListNav '>
