@@ -27,7 +27,7 @@ const Home = () => {
                 />
               </div>
               <p className='sm_text_hero flex text-[#767676] text-[1.1rem] m-3'>
-                Привет, я Cубхониддин. Опитный Front-end React разработчик из
+                Привет, я Cубхониддин. Опытный Front-end React разработчик из
                 Душанбе, Таджикистан.
               </p>
               <div className='w-full flex items-center pl-2 hero_icons pt-3'>
