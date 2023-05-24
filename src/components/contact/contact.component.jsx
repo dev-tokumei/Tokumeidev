@@ -12,7 +12,7 @@ const Contact = () => {
           <div className='text_block'>
             <p className='text-[#147efb] font-bold text-lg mb-4'>КОНТАКТ</p>
             <p className='text-[#2d2e32] font-bold text-3xl'>
-              Не стесняйтесь связи со мной. 👇
+              Не стесняйтесь связаться со мной. 👇
             </p>
           </div>
           <div className='w-full flex flex-wrap gap-24 pt-20 items-center contact_item_block'>
