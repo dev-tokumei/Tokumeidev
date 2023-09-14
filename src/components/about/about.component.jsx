@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from '@mui/material';
 import note from '../../assets/img/nout.webp';
 import mac from '../../assets/img/mac.png';
+import ractangle from '../../assets/img/Rectangle.png'
 import textimg from '../../assets/img/textimg.svg';
 import './about.css';
 
@@ -16,7 +17,7 @@ const About = () => {
           <div className='w-[410px] main_img h-[350px] relative '>
             <img
               className='w-full h-full rounded-3xl'
-              src={note}
+              src={ractangle}
               alt='notebook'
             />
             <div className='flex justify-center spiner_block items-center w-[180px] h-[180px] bg-white rounded-full bottom-[-50px] right-[-47px] absolute'>
