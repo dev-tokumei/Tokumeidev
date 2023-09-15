@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from '@mui/material';
-import note from '../../assets/img/nout.webp';
 import mac from '../../assets/img/mac.png';
 import ractangle from '../../assets/img/Rectangle.png'
 import textimg from '../../assets/img/textimg.svg';
@@ -14,7 +13,7 @@ const About = () => {
         className='w-ful about_container flex flex-col h-screen snap-center justify-center items-center'
       >
         <div className='w-full flex justify-between items-center about_block '>
-          <div className='w-[410px] main_img h-[350px] relative '>
+          <div className='w-[430px] main_img h-[370px] relative '>
             <img
               className='w-full h-full rounded-3xl'
               src={ractangle}
