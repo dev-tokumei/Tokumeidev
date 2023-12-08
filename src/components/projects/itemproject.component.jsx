@@ -1,6 +1,5 @@
 import React from "react";
 import OutboundOutlinedIcon from "@mui/icons-material/OutboundOutlined";
-import "./project.css";
 
 const ItemProject = ({ src, link, stack, name, title }) => {
   return (
