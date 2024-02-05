@@ -48,6 +48,11 @@
   );
 }
 
+.block_logo_drawer {
+  width: 47px;
+  height: 47px;
+}
+
 @media (max-width: 630px) {
   .mobile {
     width: 55px;

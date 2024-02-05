@@ -1,16 +1,15 @@
 import ssb from "../assets/project/ssb.png";
 import gravity from "../assets/project/gravity.png";
 import water from "../assets/project/water.png";
+import cfs from "../assets/project/cfs.png";
 export const ProjectsModel = [
   {
-    name: "Water Simulation",
-    title:
-      "интерактивный симулятор, позволяющий исследовать водные ресурсы нашей планеты Земля. На глобусе изображены страны, реки и мировые океаны.",
-    stack: { vue: "React JS", tw: "Globe.gl" },
-    src: water,
-    link: "https://water-simulation-pearl.vercel.app/",
+    name: "CFS.TJ",
+    title: "кумитаи бехатарии озуқавории назди ҳукумати ҷумхурии тоҷикистон",
+    stack: { vue: "React", tw: "Tailwind css" },
+    src: cfs,
+    link: "https://cfs.tj/",
   },
-
   {
     name: "Gravity.Studio",
     title:
@@ -26,5 +25,13 @@ export const ProjectsModel = [
     stack: { vue: "Vue JS", tw: "Tailwind css" },
     src: ssb,
     link: "https://www.ssb.tj/",
+  },
+  {
+    name: "Water Simulation",
+    title:
+      "интерактивный симулятор, позволяющий исследовать водные ресурсы нашей планеты Земля. На глобусе изображены страны, реки и мировые океаны.",
+    stack: { vue: "React JS", tw: "Globe.gl" },
+    src: water,
+    link: "https://water-simulation-pearl.vercel.app/",
   },
 ];
