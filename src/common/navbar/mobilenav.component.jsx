@@ -111,10 +111,13 @@ const Mobile = () => {
                   <span className="w-[45%] hover:text-[#147efb] duration-300 text-start">
                     Tokumei
                   </span>
-                  <IconButton onClick={toggleDrawer(anchor, false)}>
+                  <IconButton
+                    sx={{ mr: 1 }}
+                    onClick={toggleDrawer(anchor, false)}
+                  >
                     <CancelOutlinedIcon
                       className="hover:text-[#147efb] duration-300"
-                      fontSize="medium"
+                      fontSize="large"
                     />
                   </IconButton>
                 </div>
