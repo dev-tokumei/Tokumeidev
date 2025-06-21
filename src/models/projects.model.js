@@ -2,7 +2,25 @@ import ssb from "../assets/project/ssb.png";
 import gravity from "../assets/project/gravity.png";
 import water from "../assets/project/water.png";
 import cfs from "../assets/project/cfs.png";
+import mdesign from "../assets/img/mdesign.png";
+import devi from "../assets/img/devi.png";
 export const ProjectsModel = [
+  {
+    name: "DEVI",
+    title:
+      "Devi Hub — платформа для продвижения digital-услуг и креативных проектов в Таджикистане.",
+    stack: { vue: "React", tw: "css" },
+    src: devi,
+    link: "https://devi-hub.com",
+  },
+  {
+    name: "MDESIGN.TJ",
+    title:
+      "Портал MDESIGN — современная дизайнерская мебель на заказ в Душанбе.",
+    stack: { vue: "React", tw: "Tailwind css" },
+    src: mdesign,
+    link: "https://mdesign.tj",
+  },
   {
     name: "CFS.TJ",
     title: "кумитаи бехатарии озуқавории назди ҳукумати ҷумхурии тоҷикистон",
