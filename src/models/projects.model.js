@@ -8,7 +8,7 @@ export const ProjectsModel = [
   {
     name: "DEVI",
     title:
-      "Devi Hub — платформа для продвижения digital-услуг и креативных проектов в Таджикистане.",
+      "Devi Hub — платформа для продвижения digital-услуг и креативных проектов в Японии.",
     stack: { vue: "React", tw: "css" },
     src: devi,
     link: "https://devi-hub.com",
