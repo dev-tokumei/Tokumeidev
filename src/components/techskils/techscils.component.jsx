@@ -5,6 +5,8 @@ import js from "../../assets/icons/js.svg";
 import tailwind from "../../assets/icons/tailwind.svg";
 import react from "../../assets/icons/react.svg";
 import ts from "../../assets/icons/typescript.png";
+import vue from "../../assets/icons/vue.png";
+import next from "../../assets/icons/nextjs.webp";
 import "./skils.css";
 
 const Skils = () => {
@@ -29,6 +31,12 @@ const Skils = () => {
           </li>
           <li className="w-[65px] h-[65px] flex justify-center items-center scikls_shadow cursor-pointer ">
             <img className="w-[34px] h-[34px]" src={react} alt="" />
+          </li>
+          <li className="w-[65px] h-[65px] flex justify-center items-center scikls_shadow cursor-pointer">
+            <img className="w-[37px] h-[40px]" src={vue} alt="" />
+          </li>
+          <li className="w-[65px] h-[65px] flex justify-center items-center scikls_shadow cursor-pointer">
+            <img className="w-[40px] h-[40px]" src={next} alt="" />
           </li>
           <li className="w-[65px] h-[65px] flex justify-center items-center scikls_shadow cursor-pointer">
             <img className="w-[34px] h-[34px]" src={ts} alt="" />

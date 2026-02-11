@@ -1,10 +1,20 @@
-import ssb from "../assets/project/ssb.png";
-import gravity from "../assets/project/gravity.png";
-import water from "../assets/project/water.png";
-import cfs from "../assets/project/cfs.png";
-import mdesign from "../assets/img/mdesign.png";
-import devi from "../assets/img/devi.png";
+import ssb from "../assets/project/ssb.webp";
+import gravity from "../assets/project/gravity.webp";
+import water from "../assets/project/water.webp";
+import cfs from "../assets/project/cfs.webp";
+import mdesign from "../assets/project/mdesign.webp";
+import devi from "../assets/project/devi.webp";
+import seolift from "../assets/project/seolift.webp";
+
 export const ProjectsModel = [
+  {
+    name: "SEOLIFT",
+    title:
+      "SeoLift — сервис, который предотвращает потерю клиентов и позиций в поиске из-за незамеченных ошибок на сайте",
+    stack: { vue: "Vue JS", tw: "Bootstrap css" },
+    src: seolift,
+    link: "https://seolift.biz/",
+  },
   {
     name: "DEVI",
     title:

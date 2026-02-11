@@ -5,16 +5,14 @@
   transition: all 1s ease-in-out;
   width: 400px;
   z-index: 5;
-  background: url("../../assets/img/userImg.jpg");
+  background: url("../../assets/img/userImg.webp") center center no-repeat;
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 3px solid #2d2e32;
+  border: 3px solid  #cc2366;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  height: 25rem;
   position: relative;
   transition: all 1s ease-in-out;
-  width: 25rem;
 }
 
 @keyframes morph {
