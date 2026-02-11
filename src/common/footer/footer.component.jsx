@@ -24,13 +24,13 @@ const Footer = () => {
           </Typography>
           <div className="footer">
             <a
-              className="mr-5 hover:text-[#147efb] duration-300 text-white footer_icons"
+              className="icon mr-5 hover:text-[#147efb] duration-300 text-white footer_icons"
               href="https://github.com/dev-tokumei "
             >
               <GitHubIcon fontSize="large" />
             </a>
             <a
-              className="mr-5 hover:text-[#147efb] duration-300 text-white footer_icons"
+              className="icon mr-5 hover:text-[#147efb] duration-300 text-white footer_icons"
               href="https://t.me/tokumei_dev"
             >
               <TelegramIcon fontSize="large" />

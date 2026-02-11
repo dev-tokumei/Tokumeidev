@@ -32,7 +32,7 @@ const About = () => {
             </div>
             <div className="about_text_block">
               <p className="text-[#767676] about_text font-medium text-[17px]">
-                Привет, меня зовут Субхониддин. Я мидл фронтенд-разработчиком, я
+                Привет, меня зовут Субхониддин. Я мидл фронтенд-разработчик, я
                 обладаю внушительным арсеналом навыков в HTML, CSS, Tailwind,
                 JavaScript, React, Redux, Typescript и Firebase. Я преуспеваю в
                 разработке и поддержке адаптивных веб-сайтов, которые
